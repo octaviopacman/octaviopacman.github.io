@@ -1,0 +1,38 @@
+
+main, footer{
+    background-color: rgba(29, 29, 29, 0.534);
+    color: white;
+}
+
+.texto-principal{
+    padding: 10px;
+    margin: 0;
+}
+.barra {
+    background-color: rgb(26, 38, 44);
+    color: white;
+}
+.divFondo{
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(26, 38, 44);
+}
+.fondo{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: -10px;
+    opacity: 10%;
+}
+.contenidoPrincipal{
+    height: 40vh;
+    padding: 20px;
+}
+.contenidoPrincipal div{
+    display: flex;
+}
+
+.divImagen img{
+    width: 300px;
+}
